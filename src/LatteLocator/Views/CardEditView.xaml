@@ -1,0 +1,116 @@
+﻿<Page
+    x:Class="LatteLocator.Views.CardEditView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LatteLocator.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="using:LatteLocator.Core.Converters"
+    xmlns:syncfusion="using:Syncfusion.UI.Xaml.Controls.Input"
+    xmlns:viewModels="using:LatteLocator.ViewModels"
+    mc:Ignorable="d">
+    
+    <Page.DataContext>
+        <viewModels:CardEditViewModel x:Name="ViewModel"/>
+    </Page.DataContext>
+    
+    <Page.Resources>
+        <converters:CreditCardNumberConverter x:Key="CCNumberConverter" />
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="PageHeader"
+              Background="{StaticResource StarGreenBrush}">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <Path Data="M291.626405036635,106.461653796608C299.951630866713,106.521880237038 309.928498542494,107.506125537331 315.889191901869,112.831214038307 325.609315192885,121.513556567604 322.569672858901,140.058714953835 320.655488288588,151.996901599342 312.033265388197,206.67956456321 273.650880134291,260.094786731178 216.183747565932,288.934874621803 162.267091071791,315.990172473366 104.815644538588,314.8047171511 62.5915196301407,290.6758109011 56.0170872570939,286.940642444069 36.1899617077775,279.503356067116 43.8518002392716,270.378142444069 48.3014767529435,265.080809680397 60.4324086071915,266.20168980735 66.4616482617325,264.180968371803 74.2213223339982,261.545104113991 81.6897213818497,258.425017444069 88.8668682934708,254.829726306374 119.071343696303,239.668776599342 143.862702644057,216.305617419655 162.996003425307,189.50279149192 185.62078980226,157.747878161842 212.028321540541,132.562666980202 239.552384650893,118.748595324928 254.868592536635,111.311308947975 270.315491950697,106.892325488502 286.196290290541,106.525595752174 287.871949470229,106.483077136452 289.705201423354,106.447753039772 291.626405036635,106.461653796608z M189.852982795424,0.0114378981537584C229.42010620851,0.480612067157722 265.531403815932,15.3707323946304 290.154542243666,42.3791571535415 293.839478767104,46.4322386659927 300.704438483901,53.653449145729 301.653687751479,59.4582167543716 303.68133667726,71.6282187380142 293.853638923354,66.572638598854 285.238099372572,66.7555838503189 264.08758667726,67.1976462282486 243.651032722182,72.7383414186783 224.723130500502,82.4339438356704 190.170533454604,99.7663260378189 160.054963386244,129.392882434303 134.766190803236,164.74890050071 118.642648017592,187.276763049538 98.2173169018693,206.377410022194 74.0331128003068,218.515105334694 68.2943890454239,221.392638293678 62.2995083691544,223.899352160866 56.0566647412247,225.963133899147 47.0901005627579,228.954115954811 38.4939663769669,230.387908069069 29.8873761059708,230.679320422585 9.55441788453527,231.411925403053 4.02055624741979,219.749419299538 1.2005561949677,198.562636462624 -7.78557368498377,131.058501330788 34.3026974560685,56.1973753847427 106.355622565932,20.039212314064 134.090699470229,6.12049922126005 162.780747688002,-0.309570791547799 189.852982795424,0.0114378981537584z"
+                      Stretch="Uniform"
+                      Fill="{StaticResource StarLightBrush}"
+                      Width="20"
+                      Height="20"
+                      Margin="0,12,12,12" />
+                <TextBlock Text="STARBUCKS"
+                           FontFamily="{StaticResource AsapBold}"
+                           VerticalAlignment="Center"
+                           FontWeight="Bold"
+                           FontSize="26"
+                           Margin="0,0,0,-4"
+                           Foreground="{StaticResource StarLightBrush}" />
+                <TextBlock Text=" LOCATOR"
+                           FontFamily="{StaticResource AsapBold}"
+                           VerticalAlignment="Center"
+                           FontSize="26"
+                           Margin="0,0,0,-4"
+                           Foreground="{StaticResource StarLightBrush}" />
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0"
+                  Background="{StaticResource StarTanBrush}">
+                <TextBlock Text="Card Editor"
+                           FontFamily="{StaticResource AsapRegular}"
+                           Margin="12,3,12,0"
+                           Foreground="{StaticResource StarLightBrush}"
+                           FontSize="24"
+                           HorizontalAlignment="Center" />
+            </Grid>
+            
+            <Grid HorizontalAlignment="Center" Grid.Row="1">
+                
+                <Image Source="/Images/CardEditBackground.png" Height="200" />
+                
+                <TextBox x:Name="AccountNumberTextBox"
+                         PlaceholderText="enter card number"
+                         TextChanged="AccountNumberTextBox_OnTextChanged"
+                         InputScope="Number"
+                         Margin="20,20,72,0"
+                         Background="{StaticResource StarLightBrush}"
+                         VerticalAlignment="Top" />
+
+                <syncfusion:SfMaskedEdit x:Name="maskedEdit"
+                                         Margin="20,20,72,0" 
+                                         VerticalAlignment="Top"
+                                         Mask="0000000000000000" 
+                                         MaskType="Simple" 
+                                         Value="{Binding Card.AccountNumber}"/>
+                <!--^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$-->
+            </Grid>
+
+            <TextBox x:Name="CardTitleTextBox"
+                     Grid.Row="2"
+                     Header="Nickname"
+                     InputScope="Chat"
+                     Background="#DBDBDB" 
+                     Margin="10,0"/>
+
+            <TextBox x:Name="NotesTextBox"
+                     Grid.Row="3"
+                     InputScope="Chat"
+                     Header="Notes"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     Background="#DBDBDB"
+                     Margin="10,0,10,10"
+                     ScrollViewer.VerticalScrollBarVisibility="Visible" />
+        </Grid>
+
+        <CommandBar Grid.Row="2">
+            <AppBarButton Icon="Save" Label="save" Click="SaveCardButton_OnClick">
+            </AppBarButton>
+        </CommandBar>
+    </Grid>
+</Page>

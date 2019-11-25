@@ -1,0 +1,165 @@
+﻿<Page
+    x:Class="LatteLocator.Views.CardsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LatteLocator.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Telerik.UI.Xaml.Controls.Data"
+    xmlns:viewModels="using:LatteLocator.ViewModels"
+    xmlns:converters="using:LatteLocator.Core.Converters"
+    mc:Ignorable="d">
+
+    <Page.DataContext>
+        <viewModels:CardsViewModel x:Name="ViewModel"/>
+    </Page.DataContext>
+
+    <Page.Resources>
+        <converters:MaskedCCNumberConverter x:Key="MaskedCcNumberConverter" />
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <Grid>
+            <data:RadDataBoundListBox x:Name="CardsList"
+                                      ItemsSource="{Binding StarbucksCards}"
+                                      EmptyContent="tap &quot;+&quot; above to add a new card"
+                                      ItemTap="StarbucksCards_ItemTap" >
+                <data:RadDataBoundListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,12,0,0" Background="#66000000" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="140" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="/Images/CardEditBackground.png" />
+
+                            <Grid Grid.Column="1">
+                                <StackPanel Margin="12,5,0,0">
+                                    <TextBlock Text="{Binding Title}"
+                                               FontSize="28" />
+                                    <TextBlock Text="{Binding AccountNumber, Converter={StaticResource MaskedCcNumberConverter}}"
+                                               TextTrimming="WordEllipsis"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </data:RadDataBoundListBox.ItemTemplate>
+            </data:RadDataBoundListBox>
+
+            <Grid Background="{StaticResource StarGrayBrush}"
+                  Visibility="{Binding IsAppLocked, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <Button VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Click="UnlockButton_Clicked">
+                    <Button.Content>
+                        <StackPanel Margin="10">
+                            <Path Data="M6.8373375,34.641L33.586185,34.641 33.586185,45.214954C33.586185,46.751432,34.15909,48.143414,35.071998,49.244999L6.8373375,49.244999C3.0560532,49.244999,0,46.496336,0,43.114783L0,40.776216C0,37.385763,3.0560532,34.641001,6.8373375,34.641z M49.994898,34.081999C48.453032,34.082 47.198997,35.330887 47.198997,36.876272 47.198997,37.790363 47.645745,38.605556 48.328018,39.119951L48.328018,42.507818C48.328018,43.425709 49.075599,44.168002 49.994898,44.168002 50.912896,44.168002 51.659076,43.425709 51.659076,42.507818L51.659076,39.119951C52.341549,38.605556 52.782997,37.790363 52.782997,36.876272 52.782997,35.330887 51.534062,34.082 49.994898,34.081999z M39.938541,28.917999L60.054655,28.917999C62.23448,28.917999,63.999998,30.683608,63.999998,32.864518L63.999998,45.214779C63.999998,47.392088,62.23448,49.154999,60.054655,49.154999L39.938541,49.154999C37.752319,49.154999,35.987999,47.392088,35.987999,45.214779L35.987999,32.864518C35.987999,30.683608,37.752319,28.917999,39.938541,28.917999z M6.8371906,17.32L39.087998,17.32C38.18311,19.033576,37.666116,20.982749,37.666117,23.05432L37.666117,26.934467C35.565943,27.739156,34.003463,29.63363,33.658368,31.923999L6.8371906,31.923999C3.0559883,31.923999,0,29.177937,0,25.792483L0,23.455415C0,20.064861,3.0559883,17.32,6.8371906,17.32z M49.994399,13.121999C55.4723,13.121999,59.923998,17.580655,59.923998,23.053246L59.923998,27.435 55.4723,27.435 55.4723,23.053246C55.4723,20.033741 53.012699,17.580655 49.994399,17.580655 46.9787,17.580655 44.5217,20.033741 44.5217,23.053246L44.5217,27.435 40.066,27.435 40.066,23.053246C40.066,17.580655,44.5217,13.121999,49.994399,13.121999z M8.5469398,4.9218464C7.2383308,4.9218464 6.1627636,5.9867783 6.1627636,7.3007298 6.1627636,8.6171303 7.2383308,9.6835232 8.5469398,9.6835232 9.8607883,9.6835232 10.933678,8.6171303 10.933678,7.3007298 10.933678,5.9867783 9.8607883,4.9218464 8.5469398,4.9218464z M6.837328,0L49.272449,0C53.045877,0,56.101997,2.7421703,56.101997,6.1353378L56.101997,8.4699116C56.101997,9.6965923 55.690495,10.833225 55.002991,11.791618 53.469179,11.109222 51.779068,10.723825 49.995154,10.723825 46.46653,10.723825 43.289407,12.218716 41.03679,14.603999L6.837328,14.603999C3.0560493,14.603999,0,11.856617,0,8.4699116L0,6.1353378C0,2.7421703,3.0560493,0,6.837328,0z"
+                                  Stretch="Uniform"
+                                  Fill="{StaticResource StarLightBrush}"
+                                  Width="108"
+                                  Height="108"/>
+
+                            <TextBlock FontFamily="Asap"
+                                       Text="Locked"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       FontWeight="Bold"
+                                       FontSize="32"
+                                       Foreground="{StaticResource StarLightBrush}" />
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+            </Grid>
+
+            <Grid x:Name="PasswordOverlay"
+                  Visibility="Collapsed"
+                  Background="{StaticResource StarGrayBrush}">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackPanel x:Name="PasswordEntryPanel"
+                            Background="{StaticResource StarLightBrush}"
+                            Padding="20"
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Center">
+
+                    <!--<telerikPrimitives:RadPasswordBox x:Name="InitialPasswordBox"
+                                                      Visibility="{Binding IsAppLocked, Converter={StaticResource InvertedBooleanToVisibilityConverter}}"
+                                                      Header="Enter a password"
+                                                      FontFamily="{StaticResource AsapRegular}"
+                                                      Watermark="24 characters maximum"
+                                                      MaxLength="24"
+                                                      Margin="-12,0"
+                                                      ExecuteActionOnReturn="False"
+                                                      ActionButtonVisibility="Collapsed" />
+                    
+                    <telerikPrimitives:RadPasswordBox x:Name="FinalPasswordBox"
+                                                      Header="Confirm your password"
+                                                      FontFamily="{StaticResource AsapRegular}"
+                                                      Watermark="enter password then click arrow"
+                                                      MaxLength="24"
+                                                      Margin="-12,0"
+                                                      ExecuteActionOnReturn="True"
+                                                      ActionButtonVisibility="Visible"
+                                                      ActionButtonTap="PasswordBox_ActionButtonClick"
+                                                      PasswordChanged="FinalPasswordBox_OnPasswordChanged" />-->
+
+                    <PasswordBox x:Name="InitialPasswordBox"
+                                 Visibility="{Binding IsAppLocked, Converter={StaticResource InvertedBooleanToVisibilityConverter}}"
+                                 Header="Enter a password"
+                                 FontFamily="{StaticResource AsapRegular}"
+                                 PlaceholderText="24 characters maximum"
+                                 MaxLength="24"
+                                 Margin="0,0,0,10"/>
+
+                    <PasswordBox x:Name="FinalPasswordBox"
+                                 Header="Confirm your password"
+                                 FontFamily="{StaticResource AsapRegular}"
+                                 PlaceholderText="enter password then click arrow"
+                                 MaxLength="24"
+                                 Margin="0"
+                                 PasswordChanged="FinalPasswordBox_OnPasswordChanged" />
+                </StackPanel>
+
+                <Button x:Name="UseLastPasswordButton"
+                        Visibility="Collapsed"
+                        Content="lock using your last password"
+                        Click="UseLastPasswordButton_OnClick"
+                        VerticalAlignment="Center"
+                        Grid.Row="1"
+                        Background="{StaticResource StarGreenBrush}"
+                        Foreground="{StaticResource StarLightBrush}"
+                        BorderBrush="{StaticResource StarLightBrush}" HorizontalAlignment="Center" />
+
+                <StackPanel Margin="12"
+                            Visibility="{Binding IsAppLocked, Converter={StaticResource BooleanToVisibilityConverter}}"
+                            Grid.Row="2">
+                    <TextBlock Text="Forgot your password?"
+                               FontFamily="{StaticResource AsapRegular}"
+                               Foreground="{StaticResource StarLightBrush}"
+                               FontWeight="Bold" />
+                    <TextBlock Text="You can reset it on the Settings page. For your protection, all cards are deleted after a reset."
+                               FontFamily="{StaticResource AsapRegular}"
+                               Foreground="{StaticResource StarLightBrush}"
+                               TextWrapping="Wrap" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+        
+        <CommandBar Grid.Row="1">
+            <AppBarButton Label="add" Icon="Add" Click="AddButton_Clicked"/>
+        </CommandBar>
+    </Grid>
+</Page>
+
+
+

@@ -1,0 +1,6003 @@
+﻿{
+  "paging": {
+    "total": 100,
+    "offset": 0,
+    "limit": 50,
+    "returned": 50
+  },
+  "stores": [
+    {
+      "recommendation": {},
+      "storeNumber": "75650-83063",
+      "id": "7157",
+      "name": "BOS - Terminal E food court",
+      "phoneNumber": "617-634-6097",
+      "coordinates": {
+        "latitude": 42.370131,
+        "longitude": -71.019672
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "Boston Logan Term E Food Court",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02128"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "Boston Logan Term E Food Court",
+        "Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "bos-terminal-e-food-court-boston-logan-term-e-food-court-boston-ma-02128-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75840-100372",
+      "id": "8151",
+      "name": "BOS - Terminal C gate 28",
+      "phoneNumber": "617-594-3506",
+      "coordinates": {
+        "latitude": 42.366954,
+        "longitude": -71.016337
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "Logan Airport terminal C",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02128"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "Logan Airport terminal C",
+        "Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "bos-terminal-c-gate-28-logan-airport-terminal-c-boston-ma-02128-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75808-98096",
+      "id": "16015",
+      "name": "BOS - Terminal A gate 18",
+      "phoneNumber": null,
+      "coordinates": {
+        "latitude": 42.364545,
+        "longitude": -71.021569
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "Boston Logan International Airport",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02128"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "Boston Logan International Airport",
+        "Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "bos-terminal-a-gate-18-boston-logan-international-airport-boston-ma-02128"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "29072-251350",
+      "id": "1014612",
+      "name": "BOS - Terminal C gate 10",
+      "phoneNumber": null,
+      "coordinates": {
+        "latitude": 42.363444,
+        "longitude": -71.025284
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "1 Harborside Drive",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02128"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 8:30 PM",
+      "addressLines": [
+        "1 Harborside Drive",
+        "Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "4:30 AM to 8:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "4:30 AM to 8:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "4:30 AM to 8:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "4:30 AM to 8:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "4:30 AM to 8:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "4:30 AM to 8:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "4:30 AM to 8:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "bos-terminal-c-gate-10-1-harborside-drive-boston-ma-02128-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75649-83064",
+      "id": "14288",
+      "name": "BOS - Terminal B gate 7",
+      "phoneNumber": "617-634-6097",
+      "coordinates": {
+        "latitude": 42.36205,
+        "longitude": -71.019871
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "Boston Logan Term B Pier A-Tampopo",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02128"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "Boston Logan Term B Pier A-Tampopo",
+        "Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "bos-terminal-b-gate-7-boston-logan-term-b-pier-a-tampopo-boston-ma-02128"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75534-56699",
+      "id": "12994",
+      "name": "BOS - Terminal B gate 31",
+      "phoneNumber": "617-938-4567",
+      "coordinates": {
+        "latitude": 42.3753,
+        "longitude": -71.0248
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "Gate 25",
+        "streetAddressLine2": null,
+        "streetAddressLine3": "Boston Logan International Airport",
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02128"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "Gate 25",
+        "Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "bos-terminal-b-gate-31-gate-25-boston-logan-international-airport-boston-"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "72417-3348",
+      "id": "13172",
+      "name": "BOS - Terminal B gates 1-3",
+      "phoneNumber": null,
+      "coordinates": {
+        "latitude": 42.376,
+        "longitude": -71.0253
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "Boston Logan International Airport",
+        "streetAddressLine2": "Terminal A",
+        "streetAddressLine3": "Host Marriott/Starbucks Coffee",
+        "city": "East Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02128"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "Boston Logan International Airport",
+        "Terminal A",
+        "East Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "bos-terminal-b-gates-1-3-boston-logan-international-airport-host-marriott-s"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7550-8914",
+      "id": "9315",
+      "name": "Two Atlantic Avenue",
+      "phoneNumber": "617-723-7819",
+      "coordinates": {
+        "latitude": 42.363975,
+        "longitude": -71.050829
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "2 Atlantic Avenue",
+        "streetAddressLine2": null,
+        "streetAddressLine3": "The Pilot House",
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021103918"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "2 Atlantic Avenue",
+        "Boston, MA 02110"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "two-atlantic-avenue-2-atlantic-avenue-the-pilot-house-boston-ma-021103"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "14138-114271",
+      "id": "7561",
+      "name": "McClellan Hwy & Boardman St.",
+      "phoneNumber": "617-561-3704",
+      "coordinates": {
+        "latitude": 42.391993,
+        "longitude": -71.013059
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "430 McClellan Highway",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "East Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021281144"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 10:00 PM",
+      "addressLines": [
+        "430 McClellan Highway",
+        "East Boston, MA 02128"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "VS",
+          "name": "Verismo"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "DT",
+          "name": "Drive-Thru"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "mc-clellan-hwy-boardman-st-430-mc-clellan-highway-east-boston-ma-021281144-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "22566-214645",
+      "id": "1008869",
+      "name": "Fan Pier",
+      "phoneNumber": "6177371214",
+      "coordinates": {
+        "latitude": 42.353456,
+        "longitude": -71.046528
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "48A Northern Avenue",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02210"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 8:00 PM",
+      "addressLines": [
+        "48A Northern Avenue",
+        "Boston, MA 02210"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "SQ",
+          "name": "tbd"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "fan-pier-48-a-northern-avenue-boston-ma-02210-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75637-84387",
+      "id": "12615",
+      "name": "Boston Long Wharf Marriott",
+      "phoneNumber": "617-227-0800",
+      "coordinates": {
+        "latitude": 42.359776,
+        "longitude": -71.05213
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "296 State St",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021092607"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 8:00 PM",
+      "addressLines": [
+        "296 State St",
+        "Boston, MA 02109"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "boston-long-wharf-marriott-296-state-st-boston-ma-021092607-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75830-98680",
+      "id": "6608",
+      "name": "Renaissance Boston Harbor Lobby",
+      "phoneNumber": null,
+      "coordinates": {
+        "latitude": 42.347946,
+        "longitude": -71.03967
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "606 Congress St",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "022102803"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 7:00 PM",
+      "addressLines": [
+        "606 Congress St",
+        "Boston, MA 02210"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "renaissance-boston-harbor-lobby-606-congress-st-boston-ma-022102803-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "18666-188204",
+      "id": "1005249",
+      "name": "Rowes Wharf",
+      "phoneNumber": "6173454291",
+      "coordinates": {
+        "latitude": 42.356622,
+        "longitude": -71.050428
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "30 Rowes Wharf",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02110"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "30 Rowes Wharf",
+        "Boston, MA 02110"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "SQ",
+          "name": "tbd"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "rowes-wharf-30-rowes-wharf-boston-ma-02110-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75265-96827",
+      "id": "9657",
+      "name": "Manulife Financial",
+      "phoneNumber": "617-663-3269",
+      "coordinates": {
+        "latitude": 42.347488,
+        "longitude": -71.040334
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "601 Congress St",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "022102804"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": false,
+      "openStatusText": "Closed",
+      "addressLines": [
+        "601 Congress St",
+        "Boston, MA 02210"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:30 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:30 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:30 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:30 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:30 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "manulife-financial-601-congress-st-boston-ma-022102804-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "23738-232104",
+      "id": "1009368",
+      "name": "Seaport Blvd",
+      "phoneNumber": "8574063564",
+      "coordinates": {
+        "latitude": 42.350101,
+        "longitude": -71.045614
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "103 Seaport Blvd",
+        "streetAddressLine2": "Building L1",
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02210"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "103 Seaport Blvd",
+        "Building L1",
+        "Boston, MA 02210"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "seaport-blvd-103-seaport-blvd-boston-ma-02210-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "24983-239423",
+      "id": "1012898",
+      "name": "45 Broad Street",
+      "phoneNumber": "6177337907",
+      "coordinates": {
+        "latitude": 42.358224,
+        "longitude": -71.054216
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "45 Broad Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02109"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "45 Broad Street",
+        "Boston, MA 02109"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "45-broad-street-45-broad-street-boston-ma-02109-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7805-48459",
+      "id": "15299",
+      "name": "One International Place",
+      "phoneNumber": "617-737-4688",
+      "coordinates": {
+        "latitude": 42.355924,
+        "longitude": -71.052829
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "1 International Place",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021102602"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": false,
+      "openStatusText": "Closed",
+      "addressLines": [
+        "1 International Place",
+        "Boston, MA 02110"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "one-international-place-1-international-place-boston-ma-021102602-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "75912-99740",
+      "id": "8560",
+      "name": "Westin Boston Waterfront",
+      "phoneNumber": "617-532-4600",
+      "coordinates": {
+        "latitude": 42.3471,
+        "longitude": -71.043673
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "425 Summer St",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "022101719"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 7:00 PM",
+      "addressLines": [
+        "425 Summer St",
+        "Boston, MA 02210"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "westin-boston-waterfront-425-summer-st-boston-ma-022101719-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "9463-96686",
+      "id": "8349",
+      "name": "84 State Street",
+      "phoneNumber": "617-523-3053",
+      "coordinates": {
+        "latitude": 42.359121,
+        "longitude": -71.0556
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "84 State Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021092202"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "84 State Street",
+        "Boston, MA 02109"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "84-state-street-84-state-street-boston-ma-021092202-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "26288-244248",
+      "id": "1014527",
+      "name": "303 Congress Street",
+      "phoneNumber": "8579724641",
+      "coordinates": {
+        "latitude": 42.35137,
+        "longitude": -71.050378
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "303 Congress Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02210"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 8:00 PM",
+      "addressLines": [
+        "303 Congress Street",
+        "Boston, MA 02210"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:30 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "303-congress-street-303-congress-street-boston-ma-02210-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7201-540",
+      "id": "12043",
+      "name": "211 Congress",
+      "phoneNumber": "617-542-4439",
+      "coordinates": {
+        "latitude": 42.354673,
+        "longitude": -71.054837
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "211 Congress Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021102410"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": false,
+      "openStatusText": "Closed",
+      "addressLines": [
+        "211 Congress Street",
+        "Boston, MA 02110"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "211-congress-211-congress-street-boston-ma-021102410-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "875-1777",
+      "id": "13576",
+      "name": "240 Washington St.",
+      "phoneNumber": "617-720-2220",
+      "coordinates": {
+        "latitude": 42.357898,
+        "longitude": -71.057821
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "240 Washington St.",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021084603"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "240 Washington St.",
+        "Boston, MA 02108"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "240-washington-st-240-washington-st-boston-ma-021084603-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7268-833",
+      "id": "16342",
+      "name": "One Federal Bldg.",
+      "phoneNumber": "(617) 357-6410",
+      "coordinates": {
+        "latitude": 42.355943,
+        "longitude": -71.056717
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "1 Federal Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021102012"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": false,
+      "openStatusText": "Closed",
+      "addressLines": [
+        "1 Federal Street",
+        "Boston, MA 02110"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "one-federal-bldg-1-federal-street-boston-ma-021102012-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "883-1775",
+      "id": "18393",
+      "name": "Steaming Kettle",
+      "phoneNumber": "617-227-2284",
+      "coordinates": {
+        "latitude": 42.359465,
+        "longitude": -71.059376
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "63-65 Court Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021082109"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "63-65 Court Street",
+        "Boston, MA 02108"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "steaming-kettle-63-65-court-street-boston-ma-021082109-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "17019-173004",
+      "id": "89149",
+      "name": "Chelsea, Everett Avenue",
+      "phoneNumber": "617 8847872",
+      "coordinates": {
+        "latitude": 42.394825,
+        "longitude": -71.042814
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "164 Everett Avenue",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Chelsea",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021501813"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 10:00 PM",
+      "addressLines": [
+        "164 Everett Avenue",
+        "Chelsea, MA 02150"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "chelsea-everett-avenue-164-everett-avenue-chelsea-ma-021501813-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "869-1785",
+      "id": "16520",
+      "name": "Federal Street",
+      "phoneNumber": "617-946-0535",
+      "coordinates": {
+        "latitude": 42.355049,
+        "longitude": -71.057263
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "75-101 Federal Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021101901"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": false,
+      "openStatusText": "Closed",
+      "addressLines": [
+        "75-101 Federal Street",
+        "Boston, MA 02110"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:15 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:15 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:15 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:15 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:15 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "federal-street-75-101-federal-street-boston-ma-021101901-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7535-11881",
+      "id": "11398",
+      "name": "27 School Street",
+      "phoneNumber": "617-227-7731",
+      "coordinates": {
+        "latitude": 42.357726,
+        "longitude": -71.05922
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "27 School Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021084633"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "27 School Street",
+        "Boston, MA 02108"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "27-school-street-27-school-street-boston-ma-021084633-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7377-1648",
+      "id": "13505",
+      "name": "One Financial Center-Dewey Sq.",
+      "phoneNumber": "(617) 428-0019",
+      "coordinates": {
+        "latitude": 42.352262,
+        "longitude": -71.056024
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "1 Financial Center",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021112621"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": false,
+      "openStatusText": "Closed",
+      "addressLines": [
+        "1 Financial Center",
+        "Boston, MA 02111"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "Closed",
+          "open": false,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "one-financial-center-dewey-sq-1-financial-center-boston-ma-021112621-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "10599-100736",
+      "id": "10135",
+      "name": "125 Summer St.",
+      "phoneNumber": "617-737-0250",
+      "coordinates": {
+        "latitude": 42.35317,
+        "longitude": -71.057619
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "125 Summer Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021101616"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 7:00 PM",
+      "addressLines": [
+        "125 Summer Street",
+        "Boston, MA 02110"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 7:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "125-summer-st-125-summer-street-boston-ma-021101616-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7531-11037",
+      "id": "12348",
+      "name": "12 Winter Street",
+      "phoneNumber": "617-542-1313",
+      "coordinates": {
+        "latitude": 42.35561,
+        "longitude": -71.061057
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "12 Winter Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021084704"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "12 Winter Street",
+        "Boston, MA 02108"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "12-winter-street-12-winter-street-boston-ma-021084704-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "76315-90423",
+      "id": "14668",
+      "name": "Target Revere T-1942",
+      "phoneNumber": "781-922-6030",
+      "coordinates": {
+        "latitude": 42.400825,
+        "longitude": -71.001876
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "36 Furlong Dr",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Revere",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021514006"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "36 Furlong Dr",
+        "Revere, MA 02151"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "target-revere-t-1942-36-furlong-dr-revere-ma-021514006-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "857-1779",
+      "id": "12257",
+      "name": "Cambridge St. Beacon Hill",
+      "phoneNumber": "617-227-2959",
+      "coordinates": {
+        "latitude": 42.361026,
+        "longitude": -71.066486
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "222 Cambridge Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021142710"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "222 Cambridge Street",
+        "Boston, MA 02114"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "cambridge-st-beacon-hill-222-cambridge-street-boston-ma-021142710-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "28796-251149",
+      "id": "1014608",
+      "name": "L Street & East Broadway",
+      "phoneNumber": "8573375110",
+      "coordinates": {
+        "latitude": 42.335545,
+        "longitude": -71.03549
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "749 East Broadway",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "South Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02127"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "749 East Broadway",
+        "South Boston, MA 02127"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "l-street-east-broadway-749-east-broadway-south-boston-ma-02127-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7564-15894",
+      "id": "13538",
+      "name": "62 Boylston",
+      "phoneNumber": "617-338-0067",
+      "coordinates": {
+        "latitude": 42.352251,
+        "longitude": -71.064439
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "62 Boylston Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021164799"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 10:00 PM",
+      "addressLines": [
+        "62 Boylston Street",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "62-boylston-62-boylston-street-boston-ma-021164799-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "16764-160204",
+      "id": "1005493",
+      "name": "South Boston/ West Broadway T",
+      "phoneNumber": "617 9464653",
+      "coordinates": {
+        "latitude": 42.342551,
+        "longitude": -71.056862
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "11 West Broadway street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "South Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02127"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "11 West Broadway street",
+        "South Boston, MA 02127"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "4:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "south-boston-west-broadway-t-11-west-broadway-street-south-boston-ma-02127-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "78025-103254",
+      "id": "6924",
+      "name": "Boston DoubleTree",
+      "phoneNumber": "617-956-7900",
+      "coordinates": {
+        "latitude": 42.34896,
+        "longitude": -71.064154
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "821 Washington Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021111519"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 4:00 PM",
+      "addressLines": [
+        "821 Washington Street",
+        "Boston, MA 02111"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 4:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 4:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 5:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "boston-double-tree-821-washington-street-boston-ma-021111519-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "801-1782",
+      "id": "13567",
+      "name": "Starbucks Boston Common",
+      "phoneNumber": "617-742-2664",
+      "coordinates": {
+        "latitude": 42.356349,
+        "longitude": -71.069312
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "65-66 Beacon",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02108"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:30 PM",
+      "addressLines": [
+        "65-66 Beacon",
+        "Boston, MA 02108"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "VS",
+          "name": "Verismo"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "starbucks-boston-common-65-66-beacon-boston-ma-02108-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "864-1786",
+      "id": "15879",
+      "name": "Charles Street",
+      "phoneNumber": "617-227-3812",
+      "coordinates": {
+        "latitude": 42.358883,
+        "longitude": -71.070565
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "97 Charles Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021143251"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "97 Charles Street",
+        "Boston, MA 02114"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "charles-street-97-charles-street-boston-ma-021143251-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "807-194265",
+      "id": "1010353",
+      "name": "City Place (Boston)",
+      "phoneNumber": "6174261763",
+      "coordinates": {
+        "latitude": 42.351623,
+        "longitude": -71.066989
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "12 Charles Street South",
+        "streetAddressLine2": "D-2",
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02116"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 11:00 PM",
+      "addressLines": [
+        "12 Charles Street South",
+        "D-2",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 11:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 11:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 11:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "city-place-boston-12-charles-street-south-boston-ma-02116-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "29352-253344",
+      "id": "1017398",
+      "name": "Park Plaza Boston",
+      "phoneNumber": "8572830233",
+      "coordinates": {
+        "latitude": 42.35082,
+        "longitude": -71.069877
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "64 Arlington Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02116"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:30 PM",
+      "addressLines": [
+        "64 Arlington Street",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "park-plaza-boston-64-arlington-street-boston-ma-02116-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7436-1835",
+      "id": "16661",
+      "name": "Cambridgeside Galleria Mall",
+      "phoneNumber": "6176219740",
+      "coordinates": {
+        "latitude": 42.36753,
+        "longitude": -71.076223
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "100 Cambridgeside Place",
+        "streetAddressLine2": "Suite E108",
+        "streetAddressLine3": "Cambridgeside Galleria Mall",
+        "city": "Cambridge",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021412218"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:30 PM",
+      "addressLines": [
+        "100 Cambridgeside Place",
+        "Suite E108",
+        "Cambridge, MA 02141"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "VS",
+          "name": "Verismo"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "cambridgeside-galleria-mall-100-cambridgeside-place-cambridgeside-galleria-mal"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "830-1760",
+      "id": "14814",
+      "name": "443 Boylston Street",
+      "phoneNumber": "617-536-7177",
+      "coordinates": {
+        "latitude": 42.351504,
+        "longitude": -71.072997
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "443 Boylston Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021163301"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:30 PM",
+      "addressLines": [
+        "443 Boylston Street",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "443-boylston-street-443-boylston-street-boston-ma-021163301-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "822-1781",
+      "id": "14813",
+      "name": "185 Dartmouth St",
+      "phoneNumber": "617-859-0703",
+      "coordinates": {
+        "latitude": 42.348457,
+        "longitude": -71.076293
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "185 Dartmouth Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021165019"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "185 Dartmouth Street",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 8:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        },
+        {
+          "code": "CS",
+          "name": "tbd - Coffee Scale"
+        }
+      ],
+      "slug": "185-dartmouth-st-185-dartmouth-street-boston-ma-021165019-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7652-15173",
+      "id": "13427",
+      "name": "Westin Hotel Copley",
+      "phoneNumber": "6178670491",
+      "coordinates": {
+        "latitude": 42.348411,
+        "longitude": -71.076958
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "10 Huntington Ave",
+        "streetAddressLine2": "Ste D",
+        "streetAddressLine3": "Westin Hotel Copley Place",
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021165707"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "10 Huntington Ave",
+        "Ste D",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "westin-hotel-copley-10-huntington-ave-westin-hotel-copley-place-boston"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "870-1784",
+      "id": "8796",
+      "name": "165 Newbury",
+      "phoneNumber": "617-536-5282",
+      "coordinates": {
+        "latitude": 42.350805,
+        "longitude": -71.078872
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "165 Newbury Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021162878"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "165 Newbury Street",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "165-newbury-165-newbury-street-boston-ma-021162878-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7551-12652",
+      "id": "13533",
+      "name": "Tremont-South End",
+      "phoneNumber": "617-236-7879",
+      "coordinates": {
+        "latitude": 42.342611,
+        "longitude": -71.074641
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "627 Tremont St",
+        "streetAddressLine2": "Retail Space #1",
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021181649"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:30 PM",
+      "addressLines": [
+        "627 Tremont St",
+        "Retail Space #1",
+        "Boston, MA 02118"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "5:30 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "tremont-south-end-627-tremont-st-boston-ma-021181649-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "49088-266966",
+      "id": "1015348",
+      "name": "Copley Marriott",
+      "phoneNumber": "8572749565",
+      "coordinates": {
+        "latitude": 42.347063,
+        "longitude": -71.078989
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "110 Huntington Avenue",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "02116"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 9:30 PM",
+      "addressLines": [
+        "110 Huntington Avenue",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 9:30 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "copley-marriott-110-huntington-avenue-boston-ma-02116-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "7544-27387",
+      "id": "16896",
+      "name": "755 Boylston St",
+      "phoneNumber": "617-450-0310",
+      "coordinates": {
+        "latitude": 42.349256,
+        "longitude": -71.080937
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "755 Boylston Street",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Boston",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021162618"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "CO",
+      "open": true,
+      "openStatusText": "Open until 10:00 PM",
+      "addressLines": [
+        "755 Boylston Street",
+        "Boston, MA 02116"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "6:00 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "5:30 AM to 10:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "CL",
+          "name": "Starbucks Reserve-Clover Brewed"
+        },
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "VS",
+          "name": "Verismo"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "GO",
+          "name": "Google Wi-Fi"
+        },
+        {
+          "code": "XO",
+          "name": "Mobile Order and Pay"
+        },
+        {
+          "code": "MX",
+          "name": "Music Experience"
+        },
+        {
+          "code": "NB",
+          "name": "Nitro Cold Brew"
+        },
+        {
+          "code": "LU",
+          "name": "Lunch"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "755-boylston-st-755-boylston-street-boston-ma-021162618-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "15208-156772",
+      "id": "20298",
+      "name": "Target Everett T-1229",
+      "phoneNumber": "617-420-0000",
+      "coordinates": {
+        "latitude": 42.401847,
+        "longitude": -71.069932
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "1 Mystic View Rd",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Everett",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021492428"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 9:00 PM",
+      "addressLines": [
+        "1 Mystic View Rd",
+        "Everett, MA 02149"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "7:00 AM to 9:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WA",
+          "name": "Oven-warmed Food"
+        },
+        {
+          "code": "CD",
+          "name": "Mobile Payment"
+        },
+        {
+          "code": "DR",
+          "name": "Digital Rewards"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        },
+        {
+          "code": "PS",
+          "name": "Playbook Store System"
+        }
+      ],
+      "slug": "target-everett-t-1229-1-mystic-view-rd-everett-ma-021492428-us"
+    },
+    {
+      "recommendation": {},
+      "storeNumber": "72208-20079",
+      "id": "12223",
+      "name": "Marriott Boston Cambridge",
+      "phoneNumber": "617-494-6600",
+      "coordinates": {
+        "latitude": 42.363307,
+        "longitude": -71.086636
+      },
+      "regulations": [],
+      "address": {
+        "streetAddressLine1": "2 Cambridge Center",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Cambridge",
+        "countrySubdivisionCode": "MA",
+        "countryCode": "US",
+        "postalCode": "021421600"
+      },
+      "timeZoneInfo": {
+        "currentTimeOffset": -300,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+      },
+      "brandName": "Starbucks",
+      "ownershipTypeCode": "LS",
+      "open": true,
+      "openStatusText": "Open until 6:00 PM",
+      "addressLines": [
+        "2 Cambridge Center",
+        "Cambridge, MA 02142"
+      ],
+      "mop": {
+        "ready": false,
+        "wait": null
+      },
+      "schedule": [
+        {
+          "dayName": "Today",
+          "hours": "7:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tomorrow",
+          "hours": "7:00 AM to 4:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Monday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Tuesday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Wednesday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Thursday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        },
+        {
+          "dayName": "Friday",
+          "hours": "6:00 AM to 6:00 PM",
+          "open": true,
+          "holiday": ""
+        }
+      ],
+      "features": [
+        {
+          "code": "WF",
+          "name": "Wireless Hotspot"
+        },
+        {
+          "code": "LB",
+          "name": "LaBoulange"
+        },
+        {
+          "code": "BA",
+          "name": "Bakery"
+        },
+        {
+          "code": "RW",
+          "name": "My Starbucks Rewards"
+        }
+      ],
+      "slug": "marriott-boston-cambridge-2-cambridge-center-cambridge-ma-021421600-us"
+    }
+  ],
+  "coordinates": {
+    "lat": 42.369013,
+    "lng": -71.02005
+  },
+  "includesRecommendedLocations": false
+}
