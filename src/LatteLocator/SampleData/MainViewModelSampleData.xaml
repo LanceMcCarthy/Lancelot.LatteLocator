@@ -1,0 +1,85 @@
+﻿<viewModels:MainViewModel xmlns:system="using:System"
+                          xmlns:foundation="using:Windows.Foundation"
+                          xmlns:viewModels="using:LatteLocator.ViewModels"
+                          xmlns:common="using:LatteLocator.Core.Common"
+                          xmlns:models="using:LatteLocator.Core.Models"
+                          AreAdsRemoved="False"
+                          IsDirty="True"
+                          IsAppLocked="False"
+                          IsBusy="False"
+                          LocationEnabled="True">
+    <!--<viewModels:MainViewModel.BarcodeZooms>
+        <system:String>Small</system:String>
+        <system:String>Medium</system:String>
+        <system:String>Large</system:String>
+    </viewModels:MainViewModel.BarcodeZooms>
+    <viewModels:MainViewModel.PreferredBarcodeSize>
+        <foundation:Size Height="407.07"
+                         Width="160.66" />
+    </viewModels:MainViewModel.PreferredBarcodeSize>
+    <viewModels:MainViewModel.SelectedStarbucksCard>
+        <models:StarbucksCard ScannedData="Eleifend diam sed"
+                              Title="Card 1">
+        </models:StarbucksCard>
+    </viewModels:MainViewModel.SelectedStarbucksCard>
+    <viewModels:MainViewModel.StarbucksCards>
+        <models:StarbucksCard ScannedData="Blandit nullam curabitur commodo eget"
+                                Title="Parturient interdum venenatis vestibulum vulputate">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Vel aptent auctor congue parturient"
+                                Title="Pharetra consequat elit etiam">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Vestibulum sed"
+                                Title="Placerat nam">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Dis est pulvinar sagittis dignissim"
+                                Title="Convallis cubilia cursus">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Dapibus vestibulum senectus adipiscing"
+                                Title="Hac leo elementum fusce">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Sociosqu nec"
+                                Title="Dictum mus facilisis">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Lorem lectus"
+                                Title="Suscipit enim erat eros fermentum">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Morbi habitasse"
+                                Title="Egestas parturient fringilla">
+        </models:StarbucksCard>
+        <models:StarbucksCard ScannedData="Feugiat augue non"
+                                Title="Euismod nulla proin nibh torquent">
+        </models:StarbucksCard>
+    </viewModels:MainViewModel.StarbucksCards>-->
+</viewModels:MainViewModel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

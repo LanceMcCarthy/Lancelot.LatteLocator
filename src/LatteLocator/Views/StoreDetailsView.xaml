@@ -1,0 +1,251 @@
+﻿<Page x:Class="LatteLocator.Views.StoreDetailsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:data="using:Telerik.UI.Xaml.Controls.Data"
+      xmlns:maps="using:Windows.UI.Xaml.Controls.Maps"
+      xmlns:primitives="using:Telerik.UI.Xaml.Controls.Primitives"
+      xmlns:models="using:LatteLocator.Core.Models"
+      
+      mc:Ignorable="d">
+
+    <!--d:DataContext="{d:DesignData /SampleData/MainViewModelSampleData.xaml}"-->
+
+    <Page.Resources>
+
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid x:Name="ImageContainer">
+
+            <maps:MapControl x:Name="map"
+                             MapServiceToken="UJ0JYoqVaNNJqJtvKA9w~4CJfNtlXWWtJ-qwb7nyY2A~Ait8YOqNyK71VKKS1zyb7J8sGDztnbqhCSpU_0Oej5sLYPCcOLKTOpY8WyQuUIde"
+                             Loaded="Map_OnLoaded"
+                             ZoomLevel="14"
+                             Height="500"
+                             VerticalAlignment="Top"
+                             ZoomInteractionMode="GestureAndControl"
+                             TiltInteractionMode="GestureAndControl"
+                             LandmarksVisible="True"
+                             BusinessLandmarksVisible="True"
+                             TrafficFlowVisible="True" />
+
+            <!--CredentialsProvider="Ah8YbLU9aY26S0OCQtU20EiikAS5ZiqBqKxuxn_yNvFEDlQeUQXmMX76EQ-Q0juH"         
+                 MapResolved="map_MapResolved"
+                 LogoVisibility="Collapsed"
+                 CopyrightVisibility="Collapsed"-->
+
+            <!--<primitives:RadBusyIndicator x:Name="BusyIndicator"
+                                         FontFamily="{StaticResource AsapRegular}"
+                                         FontSize="24"
+                                         AnimationStyle="AnimationStyle4"
+                                         Content="loading..."
+                                         Foreground="{StaticResource StarDarkGreenBrush}"
+                                         Background="#99F7F7F7" />-->
+        </Grid>
+
+        <ScrollViewer x:Name="Scroller">
+            <Grid x:Name="ScrollGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="380" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid x:Name="ContentPanel"
+                      Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    
+                    <Rectangle Height="40"
+                               Margin="0,0,0,-1">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFF7F7F7" Offset="1" />
+                                <GradientStop Color="Transparent" />
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+
+                    <Grid x:Name="DetailsGrid"
+                          Background="{StaticResource StarLightBrush}"
+                          Grid.Row="1" >
+                        <StackPanel Margin="12,12,12,0">
+                            <TextBlock x:Name="PageTitle"
+                                       Text="{Binding SelectedStore.Name}"
+                                       FontSize="36"
+                                       FontFamily="{StaticResource AsapRegular}"
+                                       Foreground="{StaticResource StarGreenBrush}"
+                                       Margin="0" />
+
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Bottom">
+
+                                <TextBlock FontFamily="{StaticResource AsapRegular}"
+                                           Text="{Binding SelectedStore.BrandName, FallbackValue=Starbucks}"
+                                           Foreground="{StaticResource StarDarkBrush}"
+                                           FontSize="24" />
+                                <TextBlock FontFamily="{StaticResource AsapRegular}"
+                                           Text=" is"
+                                           Foreground="{StaticResource StarDarkBrush}"
+                                           FontSize="24" />
+                                <TextBlock  Text="{Binding SelectedStore.OpenStatusText}"
+                                            Foreground="{StaticResource StarTanBrush}"
+                                            FontFamily="{StaticResource AsapRegular}"
+                                            FontWeight="Bold"
+                                            TextWrapping="Wrap"
+                                            FontSize="24"
+                                            Margin="5,0,0,0" />
+                            </StackPanel>
+
+                            <ListBox ItemsSource="{Binding SelectedStore.AddressLines}" IsHitTestVisible="False">
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="FontFamily" Value="{StaticResource AsapRegular}"/>
+                                        <Setter Property="Foreground" Value="{StaticResource StarGrayBrush}"/>
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="Margin" Value="0"/>
+                                        <Setter Property="Padding" Value="0"/>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+                            </ListBox>
+
+                            <Grid Height="300">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Row="0"
+                                           Foreground="{StaticResource StarTanBrush}"
+                                           FontFamily="{StaticResource AsapRegular}"
+                                           Text="Available services"
+                                           Margin="0,12,0,0"
+                                           FontSize="24"
+                                           FontStyle="Italic" />
+                                <data:RadDataBoundListBox ItemsSource="{Binding SelectedStore.Features}"
+                                                          Grid.Row="1"
+                                                          EmptyContent="no features at this location"
+                                                          Margin="0">
+                                    <data:RadDataBoundListBox.VirtualizationStrategyDefinition>
+                                        <data:DynamicGridVirtualizationStrategyDefinition Orientation="Vertical"
+                                                                                          StackCount="3" />
+                                    </data:RadDataBoundListBox.VirtualizationStrategyDefinition>
+                                    <data:RadDataBoundListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Background="{StaticResource StarTanBrush}"
+                                                  Margin="0,0,6,6">
+                                                <TextBlock Text="{Binding Name}"
+                                                           TextWrapping="Wrap"
+                                                           Padding="12"
+                                                           Foreground="{StaticResource StarLightBrush}" />
+                                            </Grid>
+                                        </DataTemplate>
+                                    </data:RadDataBoundListBox.ItemTemplate>
+                                </data:RadDataBoundListBox>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <!--<StackPanel x:Name="ZoomButtonsPanel"
+                            VerticalAlignment="Top"
+                            HorizontalAlignment="Right">
+                    <telerikPrimitives:RadImageButton x:Name="ZoomInButton"
+                                                      IsEnabled="False"
+                                                      RestStateImageSource="Images/ZoomIn72.png"
+                                                      Click="ZoomInButton_OnClick"
+                                                      Foreground="{StaticResource StarLightBrush}"
+                                                      ButtonShape="Ellipse"
+                                                      BorderBrush="{StaticResource StarGreenBrush}"
+                                                      Background="{StaticResource StarGreenBrush}" />
+                    <telerikPrimitives:RadImageButton x:Name="ZoomOutButton"
+                                                      IsEnabled="False"
+                                                      RestStateImageSource="Images/ZoomOut72.png"
+                                                      Click="ZoomOutButton_OnClick"
+                                                      Foreground="{StaticResource StarLightBrush}"
+                                                      ButtonShape="Ellipse"
+                                                      BorderBrush="{StaticResource StarGreenBrush}"
+                                                      Background="{StaticResource StarGreenBrush}" />
+                </StackPanel>-->
+            </Grid>
+        </ScrollViewer>
+
+        <Grid x:Name="FullScheduleGrid"
+              Visibility="{Binding ElementName=FullScheduleButton, Path=IsChecked, Converter={StaticResource BooleanToVisibilityConverter}}"
+              Background="#FFE7E7E7">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid Background="{StaticResource StarLightBrush}"
+                  Height="72">
+                <TextBlock Text="Hours - Next 7 Days"
+                           VerticalAlignment="Center"
+                           Margin="12,0,0,0"
+                           Foreground="{StaticResource StarGrayBrush}"
+                           FontSize="32"
+                           HorizontalAlignment="Center" />
+            </Grid>
+
+            <ListBox ItemsSource="{Binding SelectedStore.store.hoursNext7Days}"
+                     Grid.Row="1">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="12,6">
+                            <TextBlock Text="{Binding date, Converter={StaticResource ScheduleDateConverter}}"
+                                       Foreground="{StaticResource StarDarkGreenBrush}"
+                                       FontSize="26.667" />
+                            <TextBlock Text="Open 24 hours"
+                                       Visibility="{Binding open24Hours, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                       Foreground="{StaticResource StarTanBrush}" />
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Text="Opens"
+                                           Foreground="{StaticResource StarGrayBrush}" />
+                                <TextBlock Text="Closes"
+                                           Grid.Row="1"
+                                           Foreground="{StaticResource StarGrayBrush}" />
+
+                                <TextBlock Text="{Binding openTime, Converter={StaticResource ScheduleTimeConverter}}"
+                                           Grid.Column="1"
+                                           Margin="12,0,0,0"
+                                           Foreground="{StaticResource StarDarkBrush}" />
+                                <TextBlock Text="{Binding closeTime, Converter={StaticResource ScheduleTimeConverter}}"
+                                           Grid.Row="1"
+                                           Grid.Column="1"
+                                           Margin="12,0,0,0"
+                                           Foreground="{StaticResource StarDarkBrush}" />
+                            </Grid>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+        </Grid>
+
+        <ToggleButton x:Name="FullScheduleButton"
+                      IsChecked="False"
+                      Padding="6,0,2,0"
+                      Background="{StaticResource StarGreenBrush}"
+                      BorderBrush="{StaticResource StarGreenBrush}"
+                      VerticalAlignment="Top"
+                      HorizontalAlignment="Right"
+                      Height="72"
+                      Width="72">
+            <Path Data="M23.999966,19L25.999966,19 25.999966,23 23.999966,23z M24.999921,15.724006C25.661929,15.724006 26.198936,16.260006 26.198936,16.920007 26.198936,17.580007 25.661929,18.116008 24.999921,18.116008 24.337914,18.116008 23.801908,17.580007 23.801908,16.920007 23.801908,16.260006 24.337914,15.724006 24.999921,15.724006z M24.999966,14.971016C22.224941,14.971016 19.967007,17.226997 19.967007,20.000008 19.967007,22.773018 22.224941,25.028999 24.999966,25.028999 27.77499,25.028999 30.032925,22.773018 30.032925,20.000008 30.032925,17.226997 27.77499,14.971016 24.999966,14.971016z M24.999966,13.000008C28.859951,13.000008 31.999966,16.139992 31.999966,20.000008 31.999966,23.859016 28.859951,27.000008 24.999966,27.000008 21.13998,27.000008 17.999966,23.859016 17.999966,20.000008 17.999966,16.139992 21.13998,13.000008 24.999966,13.000008z M1.9939976,3.9999943L1.9939976,8 23.999982,8 23.999982,3.9999943 19.999966,3.9999943 19.999966,6 17.999965,6 17.999965,3.9999943 7.9999657,3.9999943 7.9999657,6 5.9999657,6 5.9999657,3.9999943z M5.9999657,0L7.9999657,0 7.9999657,1.9999943 17.999965,1.9999943 17.999965,0 19.999966,0 19.999966,1.9999943 25.993981,1.9999943 25.993981,10.959995C25.695981,10.929995 25.393981,10.913995 25.088982,10.913994 24.719982,10.913995 24.356982,10.942995 23.999982,10.986995L23.999982,9.9999995 1.9939976,9.9999995 1.9939976,23.999994 17.033987,23.999994C17.406987,24.730994,17.877987,25.400994,18.427986,25.999994L0,25.999994 0,1.9999943 5.9999657,1.9999943z"
+                  Stretch="Uniform"
+                  Fill="#FFFFFFFF" />
+        </ToggleButton>
+    </Grid>
+</Page>

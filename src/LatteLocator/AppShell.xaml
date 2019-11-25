@@ -1,0 +1,323 @@
+﻿<Page
+    x:Class="LatteLocator.AppShell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:LatteLocator.Controls"
+    xmlns:common="using:LatteLocator.Core.Common"
+    mc:Ignorable="d">
+    
+    <Page.Resources>
+        <DataTemplate x:Key="NavMenuItemTemplate"
+                      x:DataType="common:PaneMenuItem">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="48" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <FontIcon x:Name="Glyph"
+                          FontSize="16"
+                          Glyph="{x:Bind GlyphIcon}"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Center"
+                          Foreground="{StaticResource StarLightBrush}"
+                          ToolTipService.ToolTip="{x:Bind Label}" />
+
+                <TextBlock x:Name="Text"
+                           Foreground="{StaticResource StarLightBrush}"
+                           Grid.Column="1"
+                           Text="{x:Bind Label}" />
+            </Grid>
+        </DataTemplate>
+
+        <Style x:Key="SplitViewTogglePaneButtonStyle"
+               TargetType="ToggleButton">
+            <Setter Property="FontSize"
+                    Value="20" />
+            <Setter Property="FontFamily"
+                    Value="{ThemeResource SymbolThemeFontFamily}" />
+            <Setter Property="MinHeight"
+                    Value="48" />
+            <Setter Property="MinWidth"
+                    Value="48" />
+            <Setter Property="Margin"
+                    Value="0" />
+            <Setter Property="Padding"
+                    Value="0" />
+            <Setter Property="HorizontalAlignment"
+                    Value="Left" />
+            <Setter Property="VerticalAlignment"
+                    Value="Top" />
+            <Setter Property="HorizontalContentAlignment"
+                    Value="Center" />
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center" />
+            <Setter Property="Background"
+                    Value="Transparent" />
+            <!--<Setter Property="Foreground"
+                        Value="{ThemeResource SystemControlForegroundBaseHighBrush}" />-->
+            <Setter Property="Foreground"
+                    Value="{StaticResource StarLightBrush}" />
+            <Setter Property="Content"
+                    Value="&#xE700;" />
+            <Setter Property="AutomationProperties.Name"
+                    Value="Menu" />
+            <Setter Property="UseSystemFocusVisuals"
+                    Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Grid Background="{TemplateBinding Background}"
+                              x:Name="LayoutRoot">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal" />
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="LayoutRoot"
+                                                                           Storyboard.TargetProperty="(Grid.Background)">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightListLowBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                           Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightAltBaseHighBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="LayoutRoot"
+                                                                           Storyboard.TargetProperty="(Grid.Background)">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightListMediumBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                           Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightAltBaseHighBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                           Storyboard.TargetProperty="(TextBlock.Foreground)">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlDisabledBaseLowBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Checked" />
+                                    <VisualState x:Name="CheckedPointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="LayoutRoot"
+                                                                           Storyboard.TargetProperty="(Grid.Background)">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightListLowBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                           Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightAltBaseHighBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="CheckedPressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="LayoutRoot"
+                                                                           Storyboard.TargetProperty="(Grid.Background)">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightListMediumBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                           Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlHighlightAltBaseHighBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="CheckedDisabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                           Storyboard.TargetProperty="(TextBlock.Foreground)">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="{ThemeResource SystemControlDisabledBaseLowBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentPresenter x:Name="ContentPresenter"
+                                              Content="{TemplateBinding Content}"
+                                              Margin="{TemplateBinding Padding}"
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              AutomationProperties.AccessibilityView="Raw" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="NavMenuItemContainerStyle"
+               TargetType="ListViewItem">
+            <Setter Property="MinWidth"
+                    Value="{StaticResource SplitViewCompactPaneThemeLength}" />
+            <Setter Property="Height"
+                    Value="48" />
+            <Setter Property="Padding"
+                    Value="0" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid>
+
+            <SplitView x:Name="RootSplitView"
+                       DisplayMode="Inline"
+                       OpenPaneLength="150"
+                       IsTabStop="False"
+                       IsPaneOpen="False"
+                       PaneBackground="{StaticResource StarDarkGreenBrush}">
+                <SplitView.Pane>
+                    <controls:NavMenuListView x:Name="NavMenuList"
+                                              TabIndex="3"
+                                              Margin="0,48,0,0"
+                                              ContainerContentChanging="NavMenuItemContainerContentChanging"
+                                              ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}"
+                                              ItemTemplate="{StaticResource NavMenuItemTemplate}"
+                                              ItemInvoked="NavMenuList_ItemInvoked">
+                    </controls:NavMenuListView>
+                </SplitView.Pane>
+                
+                <Frame x:Name="frame"
+                       Navigating="OnNavigatingToPage"
+                       Navigated="OnNavigatedToPage">
+                    <Frame.ContentTransitions>
+                        <TransitionCollection>
+                            <NavigationThemeTransition>
+                                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                    <EntranceNavigationTransitionInfo />
+                                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                            </NavigationThemeTransition>
+                        </TransitionCollection>
+                    </Frame.ContentTransitions>
+                </Frame>
+            </SplitView>
+
+            <ToggleButton x:Name="TogglePaneButton"
+                          TabIndex="1"
+                          Style="{StaticResource SplitViewTogglePaneButtonStyle}"
+                          IsChecked="{Binding ElementName=RootSplitView, Path=IsPaneOpen, Mode=TwoWay}"
+                          Unchecked="TogglePaneButton_Checked"
+                          ToolTipService.ToolTip="Menu" />
+
+
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup>
+                    <!--<VisualState x:Name="PhoneState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ShellSplitView.IsPaneOpen"
+                                Value="False" />
+                        <Setter Target="ShellSplitView.DisplayMode"
+                                Value="CompactOverlay" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="MediumWindowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="680" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ShellSplitView.IsPaneOpen"
+                                Value="False" />
+                        <Setter Target="ShellSplitView.DisplayMode"
+                                Value="CompactInline" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="LargeWindowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="900" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ShellSplitView.IsPaneOpen"
+                                Value="True" />
+                        <Setter Target="ShellSplitView.DisplayMode"
+                                Value="CompactInline" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+            <VisualStateGroup x:Name="DeviceBasedStates">
+                <VisualState x:Name="desktop">
+                    <VisualState.StateTriggers>
+                        <windowsStateTriggers:DeviceFamilyStateTrigger DeviceFamily="Desktop" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PlatformLabel.Text"
+                                Value="Desktop" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="mobile">
+                    <VisualState.StateTriggers>
+                        <windowsStateTriggers:DeviceFamilyStateTrigger DeviceFamily="Mobile" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PlatformLabel.Text"
+                                Value="Mobile" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="team">
+                    <VisualState.StateTriggers>
+                        <windowsStateTriggers:DeviceFamilyStateTrigger DeviceFamily="Team" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PlatformLabel.Text"
+                                Value="Team" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="iot">
+                    <VisualState.StateTriggers>
+                        <windowsStateTriggers:DeviceFamilyStateTrigger DeviceFamily="IoT" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PlatformLabel.Text"
+                                Value="IoT Core" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="xbox">
+                    <VisualState.StateTriggers>
+                        <windowsStateTriggers:DeviceFamilyStateTrigger DeviceFamily="Xbox" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PlatformLabel.Text"
+                                Value="Xbox" />
+                    </VisualState.Setters>
+                </VisualState>-->
+                    <VisualState>
+                        <VisualState.StateTriggers>
+                            <AdaptiveTrigger MinWindowWidth="720" />
+                        </VisualState.StateTriggers>
+                        <VisualState.Setters>
+                            <Setter Target="RootSplitView.DisplayMode"
+                                    Value="Inline" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState>
+                        <VisualState.StateTriggers>
+                            <AdaptiveTrigger MinWindowWidth="0" />
+                        </VisualState.StateTriggers>
+                        <VisualState.Setters>
+                            <Setter Target="RootSplitView.DisplayMode"
+                                    Value="Overlay" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </Grid>
+    </Grid>
+</Page>

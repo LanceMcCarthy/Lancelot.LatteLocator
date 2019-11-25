@@ -1,0 +1,89 @@
+﻿<Page x:Class="LatteLocator.Views.HomeView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:primitives="using:Telerik.UI.Xaml.Controls.Primitives"
+      xmlns:viewModels="using:LatteLocator.ViewModels"
+      xmlns:models="using:LatteLocator.Core.Models"
+      xmlns:converters="using:LatteLocator.Core.Converters"
+      mc:Ignorable="d">
+
+    <!--<Page.DataContext>
+        <viewModels:MainViewModel/>
+    </Page.DataContext>-->
+
+    <Page.Resources>
+        <converters:FeatureCodeToIconConverter x:Key="FeatureCodeConverter"/>
+        <converters:IsOpenToBrushConverter x:Key="IsOpenToBrushConverter"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ListView ItemsSource="{Binding SearchResult.Stores}"
+                  ItemClick="ListViewBase_OnItemClick"
+                  SelectionMode="None"
+                  IsItemClickEnabled="True">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:Store">
+                    <StackPanel Margin="10,5">
+                        <TextBlock Text="{Binding Name}"
+                                   FontWeight="Bold"
+                                   Style="{ThemeResource TitleTextBlockStyle}"
+                                   VerticalAlignment="Center"
+                                   TextTrimming="WordEllipsis"
+                                   Foreground="{StaticResource StarGreenBrush}"
+                                   FontFamily="{StaticResource AsapRegular}"
+                                   Margin="0,0,0,5"/>
+
+                        <TextBlock Text="{Binding Address.StreetAddressLine1}"
+                                   TextWrapping="Wrap"
+                                   FontFamily="{StaticResource AsapRegular}"
+                                   Foreground="{StaticResource StarGrayBrush}" 
+                                   Margin="0,0,0,5"/>
+
+                        <!--<TextBlock Text="{Binding OpenStatusText}" 
+                                   Foreground="{StaticResource StarTanBrush}"
+                                   FontFamily="{StaticResource AsapBold}"
+                                   Margin="0,0,0,5"/>-->
+
+                        <Border Background="{Binding Open, Converter={StaticResource IsOpenToBrushConverter}}" BorderThickness="1" HorizontalAlignment="Left">
+                            <TextBlock Text="{Binding OpenStatusText}"
+                                       Foreground="{StaticResource StarLightBrush}"
+                                       FontFamily="{StaticResource AsapRegular}"
+                                       FontWeight="SemiBold"
+                                       FontSize="16"
+                                       Margin="4,2,4,1" />
+                        </Border>
+
+                        <ItemsControl ItemsSource="{Binding Features}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <PathIcon Data="{Binding Code, Converter={StaticResource FeatureCodeConverter}}" Width="50" Height="50" />
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <primitives:RadBusyIndicator IsActive="{Binding IsBusy}"
+                                     Content="{Binding IsBusyMessage}"
+                                     Background="#BFFFFFFF"  />
+
+        <CommandBar Grid.Row="1">
+            <AppBarButton Icon="Refresh" Label="refresh" Command="{Binding RefreshStoresCommand}"/>
+        </CommandBar>
+
+    </Grid>
+</Page>
