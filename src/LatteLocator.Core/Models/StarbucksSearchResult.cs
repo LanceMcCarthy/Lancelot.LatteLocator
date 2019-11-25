@@ -15,6 +15,6 @@ namespace LatteLocator.Core.Models
         public QueryCoordinates Coordinates { get; set; }
 
         [JsonProperty("includesRecommendedLocations")]
-        public bool IncludesRecommendedLocations { get; set; }
+        public bool? IncludesRecommendedLocations { get; set; }
     }
 }
