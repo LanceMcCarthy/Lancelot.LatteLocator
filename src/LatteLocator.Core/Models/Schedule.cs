@@ -11,7 +11,7 @@ namespace LatteLocator.Core.Models
         public string Hours { get; set; }
 
         [JsonProperty("open")]
-        public bool Open { get; set; }
+        public bool? Open { get; set; }
 
         [JsonProperty("holiday")]
         public string Holiday { get; set; }

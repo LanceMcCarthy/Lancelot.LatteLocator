@@ -39,7 +39,7 @@ namespace LatteLocator.Core.Models
         public string OwnershipTypeCode { get; set; }
 
         [JsonProperty("open")]
-        public bool Open { get; set; }
+        public bool? Open { get; set; }
 
         [JsonProperty("openStatusText")]
         public string OpenStatusText { get; set; }

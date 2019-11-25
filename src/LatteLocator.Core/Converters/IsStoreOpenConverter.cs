@@ -13,16 +13,16 @@ namespace LatteLocator.Core.Converters
         {
             var store = value as Store;
 
-            if (store == null)
+            if (store?.Open == null)
                 return Visibility.Collapsed;
 
             if (IsInverted) //for CLOSED icon
             {
-                return !store.Open ? Visibility.Visible : Visibility.Collapsed;
+                return !store.Open == true ? Visibility.Visible : Visibility.Collapsed;
             }
             else //for OPEN icon
             {
-                return store.Open ? Visibility.Visible : Visibility.Collapsed;
+                return store.Open == true ? Visibility.Visible : Visibility.Collapsed;
             }
         }
 
